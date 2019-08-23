@@ -13,9 +13,16 @@
 //         </Familia>
 //     , document.getElementById('app'))
 
+// import React from 'react'
+// import ReactDOM from 'react-dom'
+// import ClassComponent from './classComponent'
+// ReactDOM.render(
+//     <ClassComponent label="Idade" idade={21} />
+//     , document.getElementById('app'))
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 import ClassComponent from './classComponent'
 ReactDOM.render(
-    <ClassComponent idade='21' />
+    <ClassComponent label="Calculadora" num1={0} num2={0} />
     , document.getElementById('app'))
